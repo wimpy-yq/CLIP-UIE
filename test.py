@@ -16,9 +16,9 @@ from core.Models.UWModels import CLIP_UIE
 
 # --- Parse hyper-parameters  --- #
 parser = argparse.ArgumentParser(description='PyTorch implementation of CLIP-UIE (deng. 2024)')
-parser.add_argument('-i', '--input', help='directory of input folder', default='/data16t/yuqi/CLIP-UIE-for-test/test_images/')
+parser.add_argument('-i', '--input', help='directory of input folder', default='/data16t/yq/CLIP-UIE-for-test/test_images/')
 parser.add_argument('-o', '--output', help='directory of output folder', default='./inference_result/test/')
-parser.add_argument('-c', '--ckpt', help='test ckpt path', default='/data16t/yuqi/CLIP-UIE-for-test/pretrain/pretrain_model.pth')
+parser.add_argument('-c', '--ckpt', help='test ckpt path', default='/data16t/yq/CLIP-UIE-for-test/pretrain/pretrain_model.pth')
 
 args = parser.parse_args()
 
